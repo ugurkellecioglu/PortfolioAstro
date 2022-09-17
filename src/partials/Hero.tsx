@@ -1,64 +1,47 @@
 import {
   GradientText,
   HeroAvatar,
-  HeroSocial,
   Section,
-} from 'astro-boilerplate-components';
+} from '@/components/index';
 
 const Hero = () => (
   <Section>
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Uğur</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Big fan of javascript and open source. I have been working on
+          javascript for 3+ years. I am currently working as a frontend
+          developer.
+          <br />
+          I love to share my knowledge with others. I have been writing articles
+          on my blog.
+          <br />
+          I'm in love with open source.
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="h-80 "
+          src="/assets/images/profile.jpg"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
+          <a
+            href="https://www.linkedin.com/in/ugurkellecioglu/"
+            target="_blank"
+          >
+            LinkedIn
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
-            />
+          <a href="mailto:ugur.kellecioglu@outlook.com" target="_blank">
+            Mail me
           </a>
         </>
       }

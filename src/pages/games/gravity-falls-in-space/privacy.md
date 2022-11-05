@@ -1,3 +1,9 @@
+---
+title: Privacy Policy
+description: Privacy of Gravitiy Falls in Space
+pubDate: 2022-11-05T00:00:00Z
+---
+
 **Privacy Policy**
 
 Uğur Kellecioğlu built the Gravity Falls in Space app as an Ad Supported app. This SERVICE is provided by Uğur Kellecioğlu at no cost and is intended for use as is.

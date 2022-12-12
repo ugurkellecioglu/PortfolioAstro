@@ -1,8 +1,4 @@
-import {
-  GradientText,
-  HeroAvatar,
-  Section,
-} from '@/components/index';
+import { GradientText, HeroAvatar, Section } from '@/components/index';
 
 const Hero = () => (
   <Section>
@@ -14,14 +10,17 @@ const Hero = () => (
       }
       description={
         <>
-          Big fan of javascript and open source. I have been working on
-          javascript for 3+ years. I am currently working as a frontend
+          As a frontend developer with over two years of experience, I am highly
+          skilled in JavaScript and open source. I am committed to delivering
+          high-quality, innovative solutions and staying at the forefront of the
+          industry. I am confident that my experience and skills make me an
+          ideal candidate for any organization in need of a talented frontend
           developer.
           <br />
-          I love to share my knowledge with others. I have been writing articles
-          on my blog.
-          <br />
-          I'm in love with open source.
+          If you have any job offers or questions, please don't hesitate to
+          contact me. I would be happy to discuss how my skills and experience
+          can benefit your organization. Thank you for considering me for your
+          team.
         </>
       }
       avatar={

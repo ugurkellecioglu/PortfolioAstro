@@ -16,6 +16,25 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+        name="Find If You Can"
+        description="How I Created a Secure Web Application with Nuxt, Express, and nginx"
+        link="/projects/findifyoucan"
+        img={{
+          src: '/assets/images/project-findifyoucan.png',
+          alt: 'Project Web Design',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Nuxt</Tags>
+            <Tags color={ColorTags.LIME}>Node JS</Tags>
+            <Tags color={ColorTags.SKY}>Prisma</Tags>
+            <Tags color={ColorTags.ROSE}>Nginx</Tags>
+            <Tags color={ColorTags.EMERALD}>MySql</Tags>
+            <Tags color={ColorTags.VIOLET}>Docker</Tags>
+          </>
+        }
+      />
+      <Project
         name="Asinpan"
         description="Asinpan.com is a web application that provides automation for searching skus on Amazon. I built the whole front end infrastructure and implemented highly scalable and performant components."
         link="/projects/asinpan"

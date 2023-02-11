@@ -5,7 +5,7 @@ description: Highly complex application that provides all the features of a soci
 pubDate: 2021-11-05T00:00:00Z
 imgSrc: '/assets/images/project-secrets-for-all.png'
 imgAlt: 'Secrets For All logo'
-href: 'https
+href: ''
 ---
 
 ## Introduction

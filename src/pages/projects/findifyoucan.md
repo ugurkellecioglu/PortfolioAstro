@@ -5,7 +5,10 @@ description: How I Created a Secure Web Application with Nuxt, Express, and ngin
 pubDate: 2022-12-12T00:00:00Z
 imgSrc: '/assets/images/project-findifyoucan.png'
 imgAlt: 'Find If You Can Logo'
+href: 'https://findifyoucan.com'
 ---
+
+[Find If You Can](https://findifyoucan.com)
 
 ## Introduction
 

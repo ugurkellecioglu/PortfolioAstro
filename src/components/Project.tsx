@@ -12,7 +12,7 @@ type IProjectProps = {
 };
 
 const Project = (props: IProjectProps) => (
-  <div className="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row">
+  <div className="flex flex-col items-center gap-x-8 rounded-md bg-gray-50 p-3 shadow-2xl md:flex-row">
     <div className="shrink-0">
       <a href={props.link}>
         <img
@@ -33,7 +33,7 @@ const Project = (props: IProjectProps) => (
         <div className="ml-3 flex flex-wrap gap-2">{props.category}</div>
       </div>
 
-      <p className="mt-3 text-gray-400">{props.description}</p>
+      <p className="mt-3 text-gray-800">{props.description}</p>
     </div>
   </div>
 );

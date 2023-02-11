@@ -1,7 +1,8 @@
 {
-  "name": "astro-boilerplate",
+  "name": "ugurkellecioglu.me",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

@@ -5,6 +5,7 @@ description: Minik is a URL shortener. Difference between others and Minik is th
 pubDate: 2022-07-17T00:00:00Z
 imgSrc: '/assets/images/project-minik.png'
 imgAlt: 'Minik Logo'
+href: 'https://minik.tk'
 ---
 
 # Minik

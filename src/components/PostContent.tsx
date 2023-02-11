@@ -9,16 +9,16 @@ type IPostContentProps = {
 
 const PostContent = (props: IPostContentProps) => (
   <div className="mx-auto mt-5 max-w-7xl">
-    <div>
+    <a href={props.content.href}>
       <img
         className="mx-auto w-96 rounded-lg object-scale-down object-center"
         src={props.content.imgSrc}
         alt={props.content.imgAlt}
         loading="lazy"
       />
-    </div>
+    </a>
 
-    <div className="prose prose-invert mt-8 max-w-none prose-img:rounded-lg">
+    <div className="prose prose-stone mt-8 max-w-none prose-img:rounded-lg">
       {props.children}
     </div>
   </div>

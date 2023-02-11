@@ -5,6 +5,7 @@ description: Asinpan.com is a web application that provides automation for searc
 pubDate: 2022-04-05T00:00:00Z
 imgSrc: '/assets/images/project-asinpan.png'
 imgAlt: 'Asinpan Logo'
+href: 'https://asinpan.com'
 ---
 
 ## Introduction

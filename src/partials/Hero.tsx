@@ -95,7 +95,7 @@ const Hero = () => (
               Send Email
             </a>
           </button>
-          <button className="rounded bg-emerald-600 py-2 px-4  font-normal text-slate-50 shadow-xl transition-all hover:bg-emerald-800 ">
+          <button className="rounded bg-green-700 py-2 px-4  font-normal text-slate-50 shadow-xl transition-all hover:bg-emerald-800 ">
             <a
               href="https://drive.google.com/file/d/1ySipTRS7VH7zuoRz58uT8NrUHCgXkF6G/view?usp=sharing"
               target="_blank"

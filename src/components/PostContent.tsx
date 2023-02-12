@@ -14,7 +14,6 @@ const PostContent = (props: IPostContentProps) => (
         className="mx-auto w-96 rounded-lg object-scale-down object-center"
         src={props.content.imgSrc}
         alt={props.content.imgAlt}
-        loading="lazy"
       />
     </a>
 

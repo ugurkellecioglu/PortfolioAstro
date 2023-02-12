@@ -15,7 +15,6 @@ const BlogCard = (props: IBlogCardProps) => (
           className="p-5"
           src={props.instance.frontmatter.imgSrc}
           alt={props.instance.frontmatter.imgAlt}
-          loading="lazy"
         />
       </div>
 

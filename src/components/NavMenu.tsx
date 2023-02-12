@@ -6,7 +6,9 @@ type INavMenuProps = {
 
 const NavMenu = (props: INavMenuProps) => (
   <nav>
-    <ul className="flex gap-x-8 font-medium text-gray-200">{props.children}</ul>
+    <ul className="flex justify-around gap-x-8 text-xl font-bold text-gray-200  sm:justify-evenly sm:text-base sm:font-normal   ">
+      {props.children}
+    </ul>
   </nav>
 );
 

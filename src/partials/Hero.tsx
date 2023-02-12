@@ -26,10 +26,10 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="h-80 "
           src="/assets/images/profile.png"
           alt="Avatar image"
-          loading="lazy"
+          width={386}
+          height={320}
         />
       }
       socialButtons={

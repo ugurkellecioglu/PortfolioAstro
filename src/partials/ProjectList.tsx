@@ -17,7 +17,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="Find If You Can"
-        description="How I Created a Secure Web Application with Nuxt, Express, and nginx"
+        description="A social media platform that allows you to share treasures or find them. A complex project that I built from scratch."
         link="/projects/findifyoucan"
         img={{
           src: '/assets/images/project-findifyoucan.png',

@@ -24,7 +24,7 @@ const BlogCard = (props: IBlogCardProps) => (
           {props.instance.frontmatter.title}
         </h2>
 
-        <div className="mt-1 text-xs text-gray-400">
+        <div className="mt-1 text-xs text-gray-700">
           {format(new Date(props.instance.frontmatter.pubDate), 'LLL d, yyyy')}
         </div>
 

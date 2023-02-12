@@ -34,7 +34,7 @@ const Hero = () => (
       }
       socialButtons={
         <div className="flex items-center justify-center gap-5">
-          <button className="flex rounded bg-blue-400 py-2 px-4  font-normal text-slate-50 shadow-lg transition-all hover:bg-blue-500 ">
+          <button className="flex rounded bg-blue-600 py-2 px-4  font-normal text-slate-50 shadow-xl transition-all hover:bg-blue-800 ">
             <a
               href="https://www.linkedin.com/in/ugurkellecioglu/"
               target="_blank"
@@ -55,7 +55,7 @@ const Hero = () => (
               My LinkedIn
             </a>
           </button>
-          <button className="flex rounded bg-purple-400 py-2 px-4  font-normal text-slate-50 shadow-lg transition-all hover:bg-purple-500 ">
+          <button className="flex rounded bg-purple-600 py-2 px-4  font-normal text-slate-50 shadow-xl transition-all hover:bg-purple-800 ">
             <a
               href="mailto:ugur.kellecioglu@outlook.com"
               target="_blank"
@@ -95,7 +95,7 @@ const Hero = () => (
               Send Email
             </a>
           </button>
-          <button className="rounded bg-emerald-400 py-2 px-4  font-normal text-slate-50 shadow-lg transition-all hover:bg-emerald-500 ">
+          <button className="rounded bg-emerald-600 py-2 px-4  font-normal text-slate-50 shadow-xl transition-all hover:bg-emerald-800 ">
             <a
               href="https://drive.google.com/file/d/1ySipTRS7VH7zuoRz58uT8NrUHCgXkF6G/view?usp=sharing"
               target="_blank"

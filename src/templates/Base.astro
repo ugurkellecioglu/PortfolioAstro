@@ -4,6 +4,7 @@ import '../components/GlobalStyles.astro';
 import { Footer } from '@/partials/Footer';
 import { Navbar } from '@/partials/Navbar';
 import { AppConfig } from '@/utils/AppConfig';
+import { GoogleAnalytics } from 'astro-google-analytics';
 
 export interface Props {
   head: {
@@ -27,6 +28,7 @@ const {
 
     <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
     <link rel='icon' type='image/x-icon' href='/favicon.png' />
+    <GoogleAnalytics id="G-WLLW9SSGK5" />
   </head>
   <body class='bg-slate-100 text-gray-100'>
     <Navbar />

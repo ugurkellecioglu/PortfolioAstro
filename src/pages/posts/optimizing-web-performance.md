@@ -3,8 +3,8 @@ layout: '@/templates/BasePost.astro'
 title: Optimizing Web Performance; The Benefits of Using SVGs Over PNGs
 description: In this article, we will explore the reasons why PNGs may not be suitable for some cases.
 pubDate: 2023-02-26T00:00:00Z
-imgSrc: ''
-imgAlt: ''
+imgSrc: '/assets/images/post/optimizing-web-performance/svg.svg'
+imgAlt: 'SVG logo'
 ---
 
 PNGs are popular image files that are widely used and recognized by many. However, there are certain cases where using PNGs in an app may not be the best choice. In this article, we will explore the reasons why PNGs may not be suitable for some cases.

@@ -9,16 +9,28 @@ type IProjectProps = {
   description: string;
   link: string;
   category: ReactNode;
+  status?: 'active' | 'inactive';
+  imgStyle?: React.CSSProperties;
 };
 
 const Project = (props: IProjectProps) => (
   <div className="flex flex-col items-center gap-x-8 rounded-md bg-gray-50 p-3 shadow-2xl md:flex-row">
+    <span>
+      {props.status === 'active' ||
+        (!props.status && (
+          <span className="font-semibold text-green-500">Active</span>
+        ))}
+      {props.status === 'inactive' && (
+        <span className="font-semibold text-red-500">Down</span>
+      )}
+    </span>
     <div className="shrink-0">
       <a href={props.link}>
         <img
           className="h-36 w-36 hover:translate-y-1"
           src={props.img.src}
           alt={props.img.alt}
+          style={{ ...props.imgStyle }}
         />
       </a>
     </div>

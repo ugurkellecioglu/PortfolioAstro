@@ -15,6 +15,69 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
+     
+      <Project
+        name="Proposal Up"
+        description="Ai for freelancers. Generate proposals answer questions and more."
+        link="/projects/proposalup"
+        img={{
+          src: '/assets/images/project-proposalup.svg',
+          alt: 'Think With Ai',
+        }}
+        imgStyle={{ width: '100%', height: '50px' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Nuxt 3</Tags>
+            <Tags color={ColorTags.ORANGE}>Chrome Extension</Tags>
+            <Tags color={ColorTags.VIOLET}>Firebase</Tags>
+            <Tags color={ColorTags.CYAN}>Serverless</Tags>
+            <Tags color={ColorTags.INDIGO}>Edge</Tags>
+            <Tags color={ColorTags.LIME}>Nuxt Content</Tags>
+            <Tags color={ColorTags.EMERALD}>Open AI</Tags>
+          </>
+        }
+      />
+       <Project
+        name="Tivit Engage"
+        description="Ai for Twitter. Generate comments, posts, reply, fix grammar mistakes, improve sentences."
+        link="/projects/tivitengage"
+        img={{
+          src: '/assets/images/project-tivitengage.png',
+          alt: 'Tivit Engage',
+        }}
+        imgStyle={{ width: '100%', height: '50px' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Nuxt 3</Tags>
+            <Tags color={ColorTags.ORANGE}>Chrome Extension</Tags>
+            <Tags color={ColorTags.VIOLET}>Firebase</Tags>
+            <Tags color={ColorTags.CYAN}>Serverless</Tags>
+            <Tags color={ColorTags.INDIGO}>Edge</Tags>
+            <Tags color={ColorTags.LIME}>Nuxt Content</Tags>
+            <Tags color={ColorTags.EMERALD}>Open AI</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Think With AI"
+        description="AI for LinkedIn. Generate comments, replies, posts, chat messages"
+        link="/projects/thinkwithai"
+        img={{
+          src: '/assets/images/project-thinkwithai.png',
+          alt: 'Think With Ai',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Nuxt 3</Tags>
+            <Tags color={ColorTags.ORANGE}>Chrome Extension</Tags>
+            <Tags color={ColorTags.VIOLET}>Firebase</Tags>
+            <Tags color={ColorTags.CYAN}>Serverless</Tags>
+            <Tags color={ColorTags.INDIGO}>Edge</Tags>
+            <Tags color={ColorTags.LIME}>Nuxt Content</Tags>
+            <Tags color={ColorTags.EMERALD}>Open AI</Tags>
+          </>
+        }
+      />
       <Project
         name="Find If You Can"
         description="A social media platform that allows you to share treasures or find them. A complex project that I built from scratch."
@@ -23,6 +86,7 @@ const ProjectList = () => (
           src: '/assets/images/project-findifyoucan.png',
           alt: 'Project Web Design',
         }}
+        status="inactive"
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Nuxt</Tags>
@@ -55,6 +119,7 @@ const ProjectList = () => (
         name="Secrets For All"
         description="Highly complex application that provides all the features of a social media platform. Liking, messaging, commenting, following, etc. You can share your secrets anonymously."
         link="/projects/secrets-for-all"
+        status="inactive"
         img={{
           src: '/assets/images/project-secrets-for-all.png',
           alt: 'Project Secrets For All',

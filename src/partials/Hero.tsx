@@ -10,18 +10,12 @@ const Hero = () => (
       }
       description={
         <>
-          As a frontend developer with over two years of experience, I am highly
-          skilled in JavaScript and open source. I am committed to delivering
-          high-quality, innovative solutions and staying at the forefront of the
-          industry. I am confident that my experience and skills make me an
-          ideal candidate for any organization in need of a talented frontend
-          developer.
-          <br />
-          <br />
-          If you have any job offers or questions, please don't hesitate to
-          contact me. I would be happy to discuss how my skills and experience
-          can benefit your organization. Thank you for considering me for your
-          team.
+          As an experienced frontend developer with over three years of experience, my expertise in JavaScript and open source development has grown significantly. In particular, I have become an expert in developing Chrome extensions and have successfully built several large-scale extensions.
+<br/>
+Throughout my career, I have consistently delivered high-quality and innovative solutions, always striving to stay at the forefront of industry trends and best practices. My commitment to professional growth and dedication to excellence make me a valuable asset for any organization in need of a talented frontend developer.
+<br/>
+
+If you have any job offers or questions, please feel free to contact me. I am open to new opportunities and would be delighted to discuss how my skills and experience can contribute to the success of your organization. Thank you for considering me for your team.
         </>
       }
       avatar={

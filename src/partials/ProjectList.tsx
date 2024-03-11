@@ -14,8 +14,59 @@ const ProjectList = () => (
       </>
     }
   >
-    <div className="flex flex-col gap-6">
-     
+<p>Under progress..</p>
+<p>You can check out my projects by going  <a 
+className='text-blue-400 underline'
+target='_blank' href='https://www.curiosive.com/works'>curiosive.com/works</a> though.</p>
+
+
+    {/*<div className="flex flex-col gap-6">
+     <Project
+        name="Turavi"
+        description="Turo analytics tool. Scrapes data from Turo and provides analytics for car owners."
+        link="/projects/turo"
+        img={{
+          src: '/assets/images/project-turavi.jpg',
+          alt: 'Think With Ai',
+        }}
+        imgStyle={{ width: '100%', height: '50px' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Next 14</Tags>
+            <Tags color={ColorTags.ORANGE}>Chrome Extension</Tags>
+            <Tags color={ColorTags.VIOLET}>PostgreSQL</Tags>
+            <Tags color={ColorTags.CYAN}>Drizzle ORM</Tags>
+            <Tags color={ColorTags.INDIGO}>Typescript</Tags>
+            <Tags color={ColorTags.LIME}>Tailwind</Tags>
+            <Tags color={ColorTags.EMERALD}>Shadcn</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Express Js</Tags>
+            <Tags color={ColorTags.PINK}>OpenAI</Tags>
+          </>
+        }
+      />
+         <Project
+        name="Yog Leads"
+        description="Google Maps Scraper. Scrapes data from Google Maps and provides leads for businesses."
+        link="/projects/yogleads"
+        img={{
+          src: '/assets/images/project-yogleads.png',
+          alt: 'Yog Leads',
+        }}
+        imgStyle={{ width: '100%', height: '50px' }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Next 14</Tags>
+            <Tags color={ColorTags.ORANGE}>Chrome Extension</Tags>
+            <Tags color={ColorTags.VIOLET}>PostgreSQL</Tags>
+            <Tags color={ColorTags.CYAN}>Drizzle ORM</Tags>
+            <Tags color={ColorTags.INDIGO}>Typescript</Tags>
+            <Tags color={ColorTags.LIME}>Tailwind</Tags>
+            <Tags color={ColorTags.EMERALD}>Shadcn</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Express Js</Tags>
+            <Tags color={ColorTags.PINK}>OpenAI</Tags>
+          </>
+        }
+      />
       <Project
         name="Proposal Up"
         description="Ai for freelancers. Generate proposals answer questions and more."
@@ -148,7 +199,7 @@ const ProjectList = () => (
           </>
         }
       />
-    </div>
+    </div> */}
   </Section>
 );
 
